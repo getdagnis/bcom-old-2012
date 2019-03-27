@@ -1,0 +1,451 @@
+/*===================================================================
+*Filename: Main.css
+*Project: B communications website
+*Code Author: Dagnis Skurbe
+*Homepage: www.designersbeefchart.co.uk
+*Date Created: 15.04.2012
+===================================================================*/
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+body {
+	background-color: #fff;
+	background-image: url(images/bg_grad.png);
+	background-repeat: repeat-x;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+#wrapper {
+	width: 932px;
+	margin: 0 auto;
+	position:relative;
+}
+#left {
+	width:115px;
+	position:absolute;
+	left:0;
+}
+#right {
+	width:814px;
+	position:absolute;
+	right:0;
+}
+#logo {
+	width: 115px;
+	height: 141px;
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float:left;
+}
+#logo:hover {
+	background-position: left -141px;
+}
+#logo span {
+	display: none;
+}
+#prca {
+	width: 115px;
+	height: 65px;
+	background-image: url(images/prca.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float:left;
+}
+#prca:hover {
+	background-position: left -65px;
+}
+#prca span {
+	display: none;
+}
+#topstripes {
+	width:700px;
+	height: 40px;
+	background-image: url(images/stripes-tile.gif);
+	background-position: left top;
+	position:absolute;
+	right:0;
+}
+#header {
+	height: 40px;
+	background-image: url(images/stripes-tile.gif);
+	background-repeat: repeat-x repeat-y;
+	background-position: right top;
+	left:0;
+}
+		#top-links{
+			background-color:#00b4ff;
+            padding:0;
+            margin:0;
+            line-height:16px;
+            font-size:10px;
+            text-transform:uppercase;
+            text-align:right;
+            position:absolute;
+            right:0;
+			text-shadow:0 1px 0 #999;	            
+            }
+    		#top-links a{
+                color:#fff;
+                padding:0 2px;
+	            text-decoration:none;                
+                }
+    		#top-links a:hover{
+                color:#ccc;
+                padding:0 2px;
+	            text-decoration:none;                
+                }
+    		#top-links a.active{
+                color:#ccc;
+                padding:0 2px;
+	            text-decoration:none;                
+                }                
+		ul#menu{
+			padding:40px 0 0 0;
+			height:60px;
+			margin:0;
+			list-style:none;
+			overflow:hidden;			
+			zoom:1;
+			}
+			ul#menu li{
+				padding:0;
+				margin:0;
+				float:left;
+				
+				}
+				ul#menu li a{
+					height:60px;
+					padding:21px 14px 0 15px;
+					margin:0;
+					display:block;
+					text-decoration:none;
+		            background:url(images/poga-bg.jpg) no-repeat right 0;
+					color: #fff;
+					font-size: 15px;
+					}
+    				ul#menu li a:hover{
+		            	background-position:right -60px;
+						text-shadow:0 1 0 #d70c0c;	            		            	
+    					}
+        			 ul#menu li.active a{
+		            	background-position:right -60px;
+                        }    					
+#content-wrapper {
+	margin-top:78px;
+	width:814px;
+	position:relative;
+}
+#contents {
+	width:581px;
+	position:absolute;
+	left:0;
+}
+#sidebar {
+	width: 200px;
+	position:absolute;
+	right:0;
+}
+.slides_container {
+	width:581px;
+	position:relative;
+	display:none;
+}
+  .slides_container div {
+  	margin:0;
+  	padding:0;
+    width:581px;
+    min-height:450px;
+	background-color:#eee;
+  }
+#ribbon {
+	position:absolute;
+	top:8px;
+	left:-2px;
+	z-index:501;
+}
+#slides {
+	margin-top:10px;
+	width:581px
+	position:relative;
+	display:block;
+	color:#000;
+	text-decoration:none;
+}
+#slides h1 {
+	padding:10px 10px 0	 10px;
+	font-size:17px;
+}
+#slides a {
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+#slides a:hover {
+	color:#d70c0c;
+}
+#slides p {
+	padding:7px 10px 21px 10px;
+	font-weight:normal;
+	font-size:13px;
+	line-height:1.1;
+	color:black;
+	text-shadow:0 1px 0 #fff;	
+}
+.pagination {
+	position:absolute;
+	right:3px;
+	top:340px;
+	z-index:500;
+	width:67px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 2px;
+	list-style:none;
+}
+.pagination li a {
+	width:17px;
+	height:0;
+	padding-top:17px;
+	background-image:url(images/pagination.png);
+	background-position:0 0;
+	overflow:hidden;
+}
+.pagination li a:hover {
+	background-position:0 -38px;
+	background-color:none !important;
+}
+.pagination li.current a {
+	background-position:0 -19px;
+}
+
+#slides img{
+	z-index:-1;
+}
+
+#actual h1 {
+	padding:10px 10px 0	 10px;
+	font-size:17px;
+}
+#actual a {
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+#actual a:hover {
+	color:#d70c0c;
+	background-color:#eee;
+}
+#actual p {
+	padding:7px 10px 21px 10px;
+	font-weight:normal;
+	font-size:13px;
+	line-height:1.1;
+	color:black;
+	text-shadow:0 1px 0 #fff;	
+}
+#ieraksti {
+	margin-top:10px;
+	width:581px
+	position:relative;
+	display:block;
+	background-color:white;
+}
+#ieraksti h1 {
+	padding:14px 10px 0 10px;
+	font-size:17px;
+}
+#ieraksti p {
+	padding:7px 7px 20px 10px;
+	font-weight:normal;
+	font-size:13px;
+	line-height:1.1;
+	color:black;
+}
+#ieraksti a {
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+#ieraksti a:hover {
+	color:#d70c0c;
+	background-color:#eee;
+}
+#social {
+	display:block;
+	margin:10px 0;
+	weight:200px;
+	height:54px;
+}
+.fl-l {
+	float:left;
+}
+.fl-r {
+	float:right;
+}
+#social li .soc1 {
+	weight:86px;
+	height:27px;
+	float:left;
+	background:url(images/white-social_01.png) no-repeat right 0;
+}
+#social span {
+	display: none;
+}
+		ul#social{
+			padding:0;
+			margin:10px 0 20px;
+			list-style:none;
+			overflow:hidden;
+			zoom:1;
+			}
+			ul#social li{
+				padding:0;
+				margin:0;
+				}
+				ul#social li a{
+					padding:0;
+					margin:0;
+
+					display:block;
+					text-decoration:none;
+					}
+				ul#social li#soc1 a{
+					width:86px;
+					height:27px;
+		            background:url(images/social.png) no-repeat 0 0;
+					float:left;		            
+					}
+    				#social li#soc1 a:hover{
+    					background-position:left -54px;
+    					}					
+				ul#social li#soc2 a{
+					width:114px;
+					height:27px;
+		            background:url(images/social.png) no-repeat right top;
+		            float:right;
+					}
+    				#social li#soc2 a:hover{
+    					background-position:right -54px;
+    					}							
+				ul#social li#soc3 a{
+					width:86px;
+					height:27px;
+		            background:url(images/social.png) no-repeat  0 -27px;
+		            float:left;
+					}
+    				#social li#soc3 a:hover{
+    					background-position:left -81px;
+    					}						
+				ul#social li#soc4 a{
+					width:114px;
+					height:27px;
+		            background:url(images/social.png) no-repeat right -27px;
+		            float:right;
+					}	
+    				#social li#soc4 a:hover{
+    					background-position:right -81px;
+    					}																						
+				#social a span{
+					display:none;
+					}                        
+ #sidebar h2 {
+            padding:0 0 2px 0;
+            margin:0;
+            font-size:11px;
+            color:black;
+            font-weight:bold;
+            text-transform:uppercase;
+            border-bottom:dotted 1px;
+            }
+ #citats {
+ 			margin:10px 0 26px -4px;
+ 			padding:0px;
+ 			width:209px;
+		    background:url(images/citats.png) no-repeat 0 0;
+		    }            
+ #sidebar h3 {
+ 			font-family:georgia;
+  			margin:10px 0 0 -4px;
+ 			padding:16px 20px;
+ 			min-height:85px;
+ 			color:black;
+ 			font-size:19px;
+ 			letter-spacing:-.2px;
+ 			line-height:1.2;
+ 			font-weight:normal;
+ 			font-style:italic;
+			text-shadow:0 1px 0 #fff;	 			
+ 			}
+ #sidebar h4 {
+  			margin:-4px 0 0 -4px;
+ 			padding:0 20px 20px;
+ 			color:black;
+ 			font-size:11px;
+ 			letter-spacing:-.2px;
+ 			line-height:1.2;
+ 			font-weight:normal;
+ 			font-style:italic;
+		    background:url(images/citats2.png) no-repeat 4px bottom; 			
+ }
+		ul#iesakam{
+			padding:0;
+			margin:10px 0 20px 16px;
+			font-size:12px;
+			list-style-type:square;
+			color:black;
+			}
+			ul#iesakam li{
+				padding:3px 0;
+				margin:0;
+				}
+				ul#iesakam li a{
+					color:black;
+					padding:0;
+					margin:0;
+					display:block;
+					text-decoration:none;
+					}
+				ul#iesakam li a:hover{
+					color:#d70c0c;
+					padding:0;
+					margin:0;
+					display:block;
+					text-decoration:none;
+					}         					      
+		ul#bulleti{
+			padding:0;
+			margin:10px 0 20px 16px;
+			font-size:12px;
+			list-style:square;
+			color:black;
+			}
+			ul#bulleti li{
+				padding:3px 0;
+				margin:0;
+				}
+				ul#bulleti li a{
+					color:black;
+					padding:0;
+					margin:0;
+					display:block;
+					text-decoration:none;
+					}
+				ul#bulleti li a:hover{
+					color:#d70c0c;
+					padding:0;
+					margin:0;
+					display:block;
+					text-decoration:none;
+					}         					      
+                                                
+                        
+                        
+                        
